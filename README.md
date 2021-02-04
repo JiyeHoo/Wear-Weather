@@ -13,6 +13,7 @@ Wear OS手表天气，通过高德LBS、和风SDK实现天气预报和生活建�
  - 数据解析:com.google.code.gson:gson:2.8.6
  - 图片加载:com.github.bumptech.glide:glide:4.11.0
  - 翻页效果:androidx.viewpager2:viewpager2:1.0.0
+ - ...
 
 # 说明
 

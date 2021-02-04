@@ -19,4 +19,4 @@ Wear OS手表天气，通过高德LBS、和风SDK实现天气预报和生活建�
  3. 本项目遵循MIT开源协议，但不包括所使用的第三方库。仅供学习使用，请勿用于商业用途。
 
   [1]: http://www.jiyehoo.com
-  [2]: http://blog.jiyehoo.com:81/usr/uploads/2020/12/2426015752.gif
+  [2]: http://tc.jiyehoo.com:81/images/2021/02/05/2426015752.gif

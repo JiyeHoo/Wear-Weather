@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="all">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_location_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定位天气"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_ui_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI_Now界面"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_ui_daily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI_Daily界面"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_ui_suggest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI_Suggest界面"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_ui_pager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ViewPager界面"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通过预设经纬度：110,25"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_now_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_now_weather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_now_degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_now_wind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_daily"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_suggest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+
+
+
+</androidx.wear.widget.BoxInsetLayout>

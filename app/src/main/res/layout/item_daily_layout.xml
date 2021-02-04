@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/tv_daily_date"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:text="日期"/>
+
+    <ImageView
+        android:id="@+id/iv_daily_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tv_daily_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_gravity="center_horizontal"
+        android:text="天气"/>
+
+    <TextView
+        android:id="@+id/tv_daily_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="温度"/>
+</LinearLayout>

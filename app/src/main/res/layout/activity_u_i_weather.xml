@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    tools:context=".UIWeatherActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ui_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地点"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tv_ui_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tv_ui_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0°"
+                android:textSize="50sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_ui_air"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:text="空气"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tv_ui_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:text="观测时间"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
